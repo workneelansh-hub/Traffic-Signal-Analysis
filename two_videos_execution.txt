@@ -1,0 +1,206 @@
+(cybercore) C:\Users\Admin\OneDrive - Celebal Technologies Private Limited\Desktop\Tasks\PROJECTS\Traffic Lights\Approach 2>python process_video.py --input ../trafficv2.mp4 --model nano --output output_approach2.mp4
+======================================================================
+Approach 2: Traffic Light Detection - Video Processing
+======================================================================
+
+📦 Loading model: models/best_traffic_nano_yolo.pt
+✅ Model loaded successfully!
+
+📹 Opening video: ../trafficv2.mp4
+
+📊 Video Information:
+   Resolution: 2560x1600
+   FPS: 30
+   Total Frames: 1830
+   Duration: 61.0s
+
+🚀 Processing started...
+
+Progress: 19/1830 (1.0%) | FPS: 9.4 | Avg Inference: 69.8ms | Detections: 54 | ETA: 193s
+Progress: 40/1830 (2.2%) | FPS: 9.9 | Avg Inference: 61.9ms | Detections: 125 | ETA: 180s
+Progress: 62/1830 (3.4%) | FPS: 10.2 | Avg Inference: 60.4ms | Detections: 187 | ETA: 173s
+Progress: 85/1830 (4.6%) | FPS: 10.5 | Avg Inference: 57.9ms | Detections: 245 | ETA: 167s
+Progress: 108/1830 (5.9%) | FPS: 10.6 | Avg Inference: 58.4ms | Detections: 297 | ETA: 162s
+Progress: 130/1830 (7.1%) | FPS: 10.6 | Avg Inference: 61.0ms | Detections: 338 | ETA: 160s
+Progress: 152/1830 (8.3%) | FPS: 10.7 | Avg Inference: 61.5ms | Detections: 380 | ETA: 157s
+Progress: 175/1830 (9.6%) | FPS: 10.7 | Avg Inference: 58.7ms | Detections: 415 | ETA: 154s
+Progress: 198/1830 (10.8%) | FPS: 10.8 | Avg Inference: 58.2ms | Detections: 459 | ETA: 151s
+Progress: 221/1830 (12.1%) | FPS: 10.8 | Avg Inference: 59.3ms | Detections: 505 | ETA: 149s
+Progress: 244/1830 (13.3%) | FPS: 10.8 | Avg Inference: 60.0ms | Detections: 544 | ETA: 146s
+Progress: 267/1830 (14.6%) | FPS: 10.9 | Avg Inference: 58.4ms | Detections: 567 | ETA: 144s
+Progress: 290/1830 (15.8%) | FPS: 10.9 | Avg Inference: 58.5ms | Detections: 613 | ETA: 141s
+Progress: 313/1830 (17.1%) | FPS: 10.9 | Avg Inference: 59.8ms | Detections: 658 | ETA: 139s
+Progress: 336/1830 (18.4%) | FPS: 10.9 | Avg Inference: 58.3ms | Detections: 704 | ETA: 136s
+Progress: 359/1830 (19.6%) | FPS: 11.0 | Avg Inference: 59.6ms | Detections: 749 | ETA: 134s
+Progress: 382/1830 (20.9%) | FPS: 11.0 | Avg Inference: 58.4ms | Detections: 772 | ETA: 132s
+Progress: 405/1830 (22.1%) | FPS: 11.0 | Avg Inference: 59.3ms | Detections: 807 | ETA: 130s
+Progress: 428/1830 (23.4%) | FPS: 11.0 | Avg Inference: 59.3ms | Detections: 842 | ETA: 127s
+Progress: 451/1830 (24.6%) | FPS: 11.0 | Avg Inference: 59.1ms | Detections: 870 | ETA: 125s
+Progress: 474/1830 (25.9%) | FPS: 11.0 | Avg Inference: 59.7ms | Detections: 893 | ETA: 123s
+Progress: 497/1830 (27.2%) | FPS: 11.0 | Avg Inference: 58.7ms | Detections: 918 | ETA: 121s
+Progress: 520/1830 (28.4%) | FPS: 11.0 | Avg Inference: 58.4ms | Detections: 943 | ETA: 119s
+Progress: 543/1830 (29.7%) | FPS: 11.0 | Avg Inference: 59.2ms | Detections: 966 | ETA: 117s
+Progress: 566/1830 (30.9%) | FPS: 11.0 | Avg Inference: 59.2ms | Detections: 989 | ETA: 115s
+Progress: 587/1830 (32.1%) | FPS: 11.0 | Avg Inference: 62.5ms | Detections: 1018 | ETA: 113s
+Progress: 608/1830 (33.2%) | FPS: 11.0 | Avg Inference: 63.5ms | Detections: 1070 | ETA: 111s
+Progress: 629/1830 (34.4%) | FPS: 11.0 | Avg Inference: 63.6ms | Detections: 1121 | ETA: 110s
+Progress: 650/1830 (35.5%) | FPS: 10.9 | Avg Inference: 62.7ms | Detections: 1161 | ETA: 108s
+Progress: 671/1830 (36.7%) | FPS: 10.9 | Avg Inference: 63.8ms | Detections: 1222 | ETA: 106s
+Progress: 692/1830 (37.8%) | FPS: 10.9 | Avg Inference: 64.5ms | Detections: 1302 | ETA: 105s
+Progress: 713/1830 (39.0%) | FPS: 10.9 | Avg Inference: 64.5ms | Detections: 1375 | ETA: 103s
+Progress: 734/1830 (40.1%) | FPS: 10.8 | Avg Inference: 63.2ms | Detections: 1446 | ETA: 101s
+Progress: 755/1830 (41.3%) | FPS: 10.8 | Avg Inference: 64.5ms | Detections: 1499 | ETA: 99s
+Progress: 775/1830 (42.3%) | FPS: 10.8 | Avg Inference: 65.5ms | Detections: 1557 | ETA: 98s
+Progress: 796/1830 (43.5%) | FPS: 10.8 | Avg Inference: 65.0ms | Detections: 1621 | ETA: 96s
+Progress: 808/1830 (44.2%) | FPS: 10.6 | Avg Inference: 85.3ms | Detections: 1661 | ETA: 96s
+Progress: 819/1830 (44.8%) | FPS: 10.5 | Avg Inference: 110.3ms | Detections: 1702 | ETA: 96s
+Progress: 830/1830 (45.4%) | FPS: 10.4 | Avg Inference: 130.8ms | Detections: 1738 | ETA: 97s
+Progress: 841/1830 (46.0%) | FPS: 10.2 | Avg Inference: 130.8ms | Detections: 1747 | ETA: 97s
+Progress: 851/1830 (46.5%) | FPS: 10.1 | Avg Inference: 133.6ms | Detections: 1755 | ETA: 97s
+Progress: 863/1830 (47.2%) | FPS: 10.0 | Avg Inference: 136.3ms | Detections: 1766 | ETA: 97s
+Progress: 874/1830 (47.8%) | FPS: 9.9 | Avg Inference: 133.6ms | Detections: 1779 | ETA: 97s
+Progress: 885/1830 (48.4%) | FPS: 9.8 | Avg Inference: 133.4ms | Detections: 1791 | ETA: 97s
+Progress: 896/1830 (49.0%) | FPS: 9.7 | Avg Inference: 134.9ms | Detections: 1801 | ETA: 97s
+Progress: 907/1830 (49.6%) | FPS: 9.6 | Avg Inference: 138.7ms | Detections: 1818 | ETA: 97s
+Progress: 917/1830 (50.1%) | FPS: 9.5 | Avg Inference: 139.3ms | Detections: 1843 | ETA: 96s
+Progress: 928/1830 (50.7%) | FPS: 9.4 | Avg Inference: 140.2ms | Detections: 1867 | ETA: 96s
+Progress: 939/1830 (51.3%) | FPS: 9.3 | Avg Inference: 135.4ms | Detections: 1902 | ETA: 96s
+Progress: 951/1830 (52.0%) | FPS: 9.2 | Avg Inference: 132.2ms | Detections: 1931 | ETA: 95s
+Progress: 962/1830 (52.6%) | FPS: 9.1 | Avg Inference: 127.9ms | Detections: 1953 | ETA: 95s
+Progress: 972/1830 (53.1%) | FPS: 9.0 | Avg Inference: 138.6ms | Detections: 1973 | ETA: 95s
+Progress: 981/1830 (53.6%) | FPS: 9.0 | Avg Inference: 153.2ms | Detections: 1999 | ETA: 95s
+Progress: 992/1830 (54.2%) | FPS: 8.9 | Avg Inference: 155.9ms | Detections: 2025 | ETA: 94s
+Progress: 1002/1830 (54.8%) | FPS: 8.8 | Avg Inference: 155.6ms | Detections: 2050 | ETA: 94s
+Progress: 1013/1830 (55.4%) | FPS: 8.7 | Avg Inference: 149.8ms | Detections: 2082 | ETA: 94s
+Progress: 1024/1830 (56.0%) | FPS: 8.7 | Avg Inference: 145.5ms | Detections: 2113 | ETA: 93s
+Progress: 1035/1830 (56.6%) | FPS: 8.6 | Avg Inference: 141.4ms | Detections: 2131 | ETA: 92s
+Progress: 1052/1830 (57.5%) | FPS: 8.6 | Avg Inference: 108.5ms | Detections: 2155 | ETA: 91s
+Progress: 1066/1830 (58.3%) | FPS: 8.6 | Avg Inference: 89.1ms | Detections: 2170 | ETA: 89s
+Progress: 1078/1830 (58.9%) | FPS: 8.5 | Avg Inference: 107.9ms | Detections: 2183 | ETA: 88s
+Progress: 1089/1830 (59.5%) | FPS: 8.5 | Avg Inference: 136.4ms | Detections: 2196 | ETA: 88s
+Progress: 1100/1830 (60.1%) | FPS: 8.4 | Avg Inference: 131.9ms | Detections: 2206 | ETA: 87s
+Progress: 1112/1830 (60.8%) | FPS: 8.4 | Avg Inference: 131.0ms | Detections: 2223 | ETA: 86s
+Progress: 1123/1830 (61.4%) | FPS: 8.3 | Avg Inference: 127.3ms | Detections: 2242 | ETA: 85s
+Progress: 1135/1830 (62.0%) | FPS: 8.3 | Avg Inference: 124.1ms | Detections: 2269 | ETA: 84s
+Progress: 1158/1830 (63.3%) | FPS: 8.3 | Avg Inference: 73.9ms | Detections: 2303 | ETA: 81s
+Progress: 1177/1830 (64.3%) | FPS: 8.3 | Avg Inference: 65.7ms | Detections: 2353 | ETA: 78s
+Progress: 1187/1830 (64.9%) | FPS: 8.3 | Avg Inference: 95.3ms | Detections: 2397 | ETA: 78s
+Progress: 1197/1830 (65.4%) | FPS: 8.2 | Avg Inference: 124.8ms | Detections: 2440 | ETA: 77s
+Progress: 1208/1830 (66.0%) | FPS: 8.2 | Avg Inference: 145.5ms | Detections: 2498 | ETA: 76s
+Progress: 1219/1830 (66.6%) | FPS: 8.2 | Avg Inference: 138.5ms | Detections: 2541 | ETA: 75s
+Progress: 1229/1830 (67.2%) | FPS: 8.1 | Avg Inference: 139.1ms | Detections: 2558 | ETA: 74s
+Progress: 1240/1830 (67.8%) | FPS: 8.1 | Avg Inference: 141.1ms | Detections: 2575 | ETA: 73s
+Progress: 1250/1830 (68.3%) | FPS: 8.0 | Avg Inference: 146.2ms | Detections: 2591 | ETA: 72s
+Progress: 1260/1830 (68.9%) | FPS: 8.0 | Avg Inference: 145.0ms | Detections: 2611 | ETA: 71s
+Progress: 1270/1830 (69.4%) | FPS: 7.9 | Avg Inference: 147.9ms | Detections: 2633 | ETA: 71s
+Progress: 1281/1830 (70.0%) | FPS: 7.9 | Avg Inference: 146.6ms | Detections: 2654 | ETA: 69s
+Progress: 1292/1830 (70.6%) | FPS: 7.9 | Avg Inference: 144.0ms | Detections: 2670 | ETA: 68s
+Progress: 1302/1830 (71.1%) | FPS: 7.8 | Avg Inference: 143.2ms | Detections: 2680 | ETA: 67s
+Progress: 1311/1830 (71.6%) | FPS: 7.8 | Avg Inference: 150.5ms | Detections: 2692 | ETA: 67s
+Progress: 1321/1830 (72.2%) | FPS: 7.8 | Avg Inference: 151.1ms | Detections: 2700 | ETA: 66s
+Progress: 1332/1830 (72.8%) | FPS: 7.7 | Avg Inference: 149.9ms | Detections: 2712 | ETA: 65s
+Progress: 1343/1830 (73.4%) | FPS: 7.7 | Avg Inference: 138.2ms | Detections: 2731 | ETA: 63s
+Progress: 1354/1830 (74.0%) | FPS: 7.7 | Avg Inference: 142.9ms | Detections: 2748 | ETA: 62s
+Progress: 1370/1830 (74.9%) | FPS: 7.7 | Avg Inference: 112.6ms | Detections: 2783 | ETA: 60s
+Progress: 1391/1830 (76.0%) | FPS: 7.7 | Avg Inference: 69.6ms | Detections: 2829 | ETA: 57s
+Progress: 1411/1830 (77.1%) | FPS: 7.7 | Avg Inference: 69.7ms | Detections: 2870 | ETA: 54s
+Progress: 1432/1830 (78.3%) | FPS: 7.7 | Avg Inference: 66.8ms | Detections: 2913 | ETA: 51s
+Progress: 1453/1830 (79.4%) | FPS: 7.8 | Avg Inference: 67.1ms | Detections: 2947 | ETA: 49s
+Progress: 1473/1830 (80.5%) | FPS: 7.8 | Avg Inference: 68.4ms | Detections: 2980 | ETA: 46s
+Progress: 1494/1830 (81.6%) | FPS: 7.8 | Avg Inference: 67.6ms | Detections: 2981 | ETA: 43s
+Progress: 1515/1830 (82.8%) | FPS: 7.8 | Avg Inference: 67.6ms | Detections: 2988 | ETA: 40s
+Progress: 1535/1830 (83.9%) | FPS: 7.9 | Avg Inference: 68.4ms | Detections: 2990 | ETA: 38s
+Progress: 1556/1830 (85.0%) | FPS: 7.9 | Avg Inference: 67.3ms | Detections: 2993 | ETA: 35s
+Progress: 1577/1830 (86.2%) | FPS: 7.9 | Avg Inference: 66.9ms | Detections: 2995 | ETA: 32s
+Progress: 1597/1830 (87.3%) | FPS: 7.9 | Avg Inference: 67.9ms | Detections: 2995 | ETA: 29s
+Progress: 1618/1830 (88.4%) | FPS: 7.9 | Avg Inference: 67.4ms | Detections: 2995 | ETA: 27s
+Progress: 1639/1830 (89.6%) | FPS: 8.0 | Avg Inference: 67.7ms | Detections: 2995 | ETA: 24s
+Progress: 1660/1830 (90.7%) | FPS: 8.0 | Avg Inference: 67.9ms | Detections: 2995 | ETA: 21s
+Progress: 1681/1830 (91.9%) | FPS: 8.0 | Avg Inference: 67.7ms | Detections: 2995 | ETA: 19s
+Progress: 1702/1830 (93.0%) | FPS: 8.0 | Avg Inference: 66.7ms | Detections: 3002 | ETA: 16s
+Progress: 1722/1830 (94.1%) | FPS: 8.1 | Avg Inference: 67.6ms | Detections: 3014 | ETA: 13s
+Progress: 1742/1830 (95.2%) | FPS: 8.1 | Avg Inference: 67.7ms | Detections: 3015 | ETA: 11s
+Progress: 1762/1830 (96.3%) | FPS: 8.1 | Avg Inference: 67.5ms | Detections: 3015 | ETA: 8s
+Progress: 1783/1830 (97.4%) | FPS: 8.1 | Avg Inference: 67.3ms | Detections: 3020 | ETA: 6s
+Progress: 1803/1830 (98.5%) | FPS: 8.1 | Avg Inference: 68.3ms | Detections: 3029 | ETA: 3s
+Progress: 1821/1830 (99.5%) | FPS: 8.1 | Avg Inference: 71.9ms | Detections: 3041 | ETA: 1s
+
+======================================================================
+✅ Processing Complete!
+======================================================================
+
+⏱️  Performance Metrics:
+   Total Time: 225.1s
+   Frames Processed: 1830
+   Average FPS: 8.1
+   Average Inference Time: 84.28ms
+   Min Inference Time: 53.41ms
+   Max Inference Time: 252.42ms
+   Processing Speed: 8.13x real-time
+
+🎯 Detection Statistics:
+   Total Detections: 3042
+   Average per Frame: 1.66
+
+📊 Detections by Class:
+   green: 2704 (88.9%)
+   red: 338 (11.1%)
+
+💾 Output saved: output_approach2.mp4
+======================================================================
+
+(cybercore) C:\Users\Admin\OneDrive - Celebal Technologies Private Limited\Desktop\Tasks\PROJECTS\Traffic Lights\Approach 2>python process_video.py --input ../traffic.mp4 --model nano --output output_approach2_v1.mp4
+======================================================================
+Approach 2: Traffic Light Detection - Video Processing
+======================================================================
+
+📦 Loading model: models/best_traffic_nano_yolo.pt
+✅ Model loaded successfully!
+
+📹 Opening video: ../traffic.mp4
+
+📊 Video Information:
+   Resolution: 720x1280
+   FPS: 30
+   Total Frames: 365
+   Duration: 12.2s
+
+🚀 Processing started...
+
+Progress: 29/365 (7.9%) | FPS: 14.3 | Avg Inference: 60.9ms | Detections: 76 | ETA: 23s
+Progress: 60/365 (16.4%) | FPS: 14.8 | Avg Inference: 57.4ms | Detections: 166 | ETA: 21s
+Progress: 90/365 (24.7%) | FPS: 14.7 | Avg Inference: 60.7ms | Detections: 242 | ETA: 19s
+Progress: 118/365 (32.3%) | FPS: 14.4 | Avg Inference: 64.2ms | Detections: 332 | ETA: 17s
+Progress: 145/365 (39.7%) | FPS: 14.2 | Avg Inference: 67.8ms | Detections: 420 | ETA: 16s
+Progress: 171/365 (46.8%) | FPS: 14.0 | Avg Inference: 68.7ms | Detections: 489 | ETA: 14s
+Progress: 199/365 (54.5%) | FPS: 13.9 | Avg Inference: 66.1ms | Detections: 550 | ETA: 12s
+Progress: 224/365 (61.4%) | FPS: 13.7 | Avg Inference: 70.8ms | Detections: 587 | ETA: 10s
+Progress: 251/365 (68.8%) | FPS: 13.7 | Avg Inference: 67.7ms | Detections: 620 | ETA: 8s
+Progress: 280/365 (76.7%) | FPS: 13.7 | Avg Inference: 62.3ms | Detections: 640 | ETA: 6s
+Progress: 309/365 (84.7%) | FPS: 13.8 | Avg Inference: 62.5ms | Detections: 640 | ETA: 4s
+Progress: 339/365 (92.9%) | FPS: 13.9 | Avg Inference: 60.7ms | Detections: 640 | ETA: 2s
+
+======================================================================
+✅ Processing Complete!
+======================================================================
+
+⏱️  Performance Metrics:
+   Total Time: 26.2s
+   Frames Processed: 365
+   Average FPS: 14.0
+   Average Inference Time: 63.72ms
+   Min Inference Time: 49.96ms
+   Max Inference Time: 142.61ms
+   Processing Speed: 13.95x real-time
+
+🎯 Detection Statistics:
+   Total Detections: 640
+   Average per Frame: 1.75
+
+📊 Detections by Class:
+   yellow: 251 (39.2%)
+   red: 207 (32.3%)
+   green: 182 (28.4%)
+
+💾 Output saved: output_approach2_v1.mp4
+======================================================================
