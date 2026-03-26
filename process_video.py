@@ -1,7 +1,3 @@
-"""
-Video Processing Script for Approach 2 - Traffic Light Detection
-Processes video files and generates output with detection results and timing metrics.
-"""
 
 import cv2
 import argparse
